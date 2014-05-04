@@ -97,6 +97,7 @@ describe("About Applying What We Have Learnt", function() {
       return ingredientCount[item] = (ingredientCount[item] || 0) + 1
     });
 
+
     expect(ingredientCount['mushrooms']).toBe(2);
   });
 
